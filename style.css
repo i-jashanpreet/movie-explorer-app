@@ -5,10 +5,16 @@ body {
   text-align: center;
 }
 
-#search {
+input {
   padding: 10px;
   width: 60%;
   margin: 20px;
+}
+
+.controls button {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
 }
 
 #movies {
@@ -24,6 +30,12 @@ body {
   border-radius: 10px;
 }
 
+.light .card {
+  background: #eee;
+}
+
 .card img {
   width: 100%;
+  height: 300px;
+  object-fit: cover;
 }

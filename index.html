@@ -1,14 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
   <title>Movie Explorer</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>🎬 Movie Explorer</h1>
-  <input type="text" id="search" placeholder="Search movies..." />
-  <div id="movies"></div>
-  <script src="script.js"></script>
+
+<h1>🎬 Movie Explorer</h1>
+
+<input type="text" id="search" placeholder="Search movies..." />
+
+<div class="controls">
+  <button onclick="sortByDate()">Sort by Latest</button>
+  <button onclick="sortByRating()">Sort by Rating</button>
+
+  <button onclick="filterPlatform('netflix')">Netflix</button>
+  <button onclick="filterPlatform('prime')">Prime</button>
+  <button onclick="filterPlatform('all')">All</button>
+
+</div>
+
+<div id="movies"></div>
+
+<script src="script.js"></script>
 </body>
 </html>
