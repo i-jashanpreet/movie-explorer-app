@@ -102,6 +102,9 @@ function filterPlatform(type) {
   renderMovies(filtered);
 }
 
+function toggleMode() {
+  document.body.classList.toggle("light");
+}
 window.onload = () => {
   getMovies();
 };

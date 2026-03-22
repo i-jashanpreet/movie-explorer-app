@@ -5,6 +5,11 @@ body {
   text-align: center;
 }
 
+.light {
+  background: #fff;
+  color: black;
+}
+
 input {
   padding: 10px;
   width: 60%;
